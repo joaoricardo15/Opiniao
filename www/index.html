@@ -31,13 +31,13 @@
   </div>
 
   <div class="form-group">
-    <label for="usr">nome do boy:</label>
+    <label for="usr">quem vai ta contigo:</label>
     <input type="text" class="form-control" id="someoneelse_name">
   </div>
 
   <div class="button">
-      Clique aqui para ver as melhores opções de aventuras para vocês </br></br>
-    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#resultModal">
+      Clique aqui para ver a melhor combinação para uma aventura maneira</br></br>
+    <button type="button" class="btn btn-info" onclick="getResults()">
         <i class="fa fa-grav fa-5x" aria-hidden="true"></i>
     </button>
   </div></br>
@@ -51,13 +51,17 @@
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title"></h4>
           </div>
-          <div class="modal-body">
-            <p>Melhor cidade: Curitiba</p>
-            <p>Melhor compositor: Caetano Veloso</p>
-            <p>Melhor atividade: Sexo</p>
+          <div class="modal-body text-center">
+            <p id="city"></p>
+            <p id="sound"></p>
+            <p id="sport"></p>
+            <p id="party"></p>
+            <p id="activity"></p>
+            <p id="spirit"></p>
+            <p id="malsae"></p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">fechar e ser feliz</button>
           </div>
         </div>
     
