@@ -10,7 +10,7 @@ body {
 
 .form-group {
   width: 29%;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 20%;
 }
 
@@ -26,4 +26,8 @@ body {
   font-size: 70px;
   font-family: "impact";
   margin-left: 20%;
+}
+
+.modal-body {
+
 }
