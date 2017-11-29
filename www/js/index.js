@@ -54,8 +54,6 @@ function getResults() {
 
       });
 
-       
-
     }
     else {
     
@@ -71,8 +69,19 @@ function getResults() {
         let result = new CountUp('number', 0, i, 0, 3, options);
         
         result.start(function() {
-                    
-          $("#message").html("</br>Sacanagem moderada</br></br>");
+          
+          if ( i <= 25 ) {
+            $("#message").html("</br>Vixi, meio fraco!</br></br>");
+          }
+          else if ( i <= 50 ) {
+            $("#message").html("</br>Atividades devassas!</br></br>");
+          }
+          else if ( i <= 75 ) {
+            $("#message").html("</br>O bixo vai pegar!</br></br>");
+          }
+          else {
+            $("#message").html("</br>Sensualidade, pervesão e sacanagem das boas!</br></br>");
+          }       
                   
         });
 
