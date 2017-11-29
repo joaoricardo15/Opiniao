@@ -9,7 +9,7 @@ body {
 }
 
 .form-group {
-  width: 29%;
+  width: 35%;
   font-size: 20px;
   margin-left: 20%;
 }
@@ -18,7 +18,7 @@ body {
   width: 150px;
   margin-left: 60%;
   position: absolute;
-  top: 440px; 
+  top: 330px; 
 }
 
 #title h1 {
@@ -29,5 +29,17 @@ body {
 }
 
 .modal-body {
+  font-size: 20px;
+}
 
+#number {
+  font-size: 40px;
+}
+
+#city {
+  font-size: 10px;
+}
+
+.modal-body #sugestions p {
+  font-size: 20px;
 }
