@@ -46,7 +46,7 @@ function getResults() {
               $("#spirit").html("previsão do tempo: "+spirit);
               $("#party").html("rolê de domingo: "+party+"</br></br>");
 
-            }, 30);//3000);  
+            }, 3000);  
           
           });
 
