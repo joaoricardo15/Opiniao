@@ -16,8 +16,8 @@ function getResults() {
     let myName = $("#my_name").val().toLowerCase();
     let someoneelseName = $("#someoneelse_name").val().toLowerCase();
 
-    if( ( myName == "fernanda" && someoneelseName == "joao" ) || ( myName == "joao" && someoneelseName == "fernanda" ) ) {
-
+    //if( ( myName == "fernanda" && someoneelseName == "joao" ) || ( myName == "joao" && someoneelseName == "fernanda" ) ) {
+    if( ( myName == "nina" && someoneelseName == "joao" ) || ( myName == "joao" && someoneelseName == "nina" ) || ( myName == "nina" && someoneelseName == "joão" ) || ( myName == "joão" && someoneelseName == "nina" )  ) {
       var result = new CountUp('number', 0, 99, 0, 3, options);
 
       result.start(function() {
@@ -40,11 +40,11 @@ function getResults() {
               spirit = "tranquilo e favorável";
               party = "terraço secreto";
         
-              $("#city").html("</br>cidade mais apropriada: "+city);
-              $("#sound").html("trilha sonora sugerida: "+sound);
-              $("#tip").html("dica da sabedoria ancestral: "+tip);
-              $("#spirit").html("previsão do tempo: "+spirit);
-              $("#party").html("rolê de domingo: "+party+"</br></br>");
+              //$("#city").html("</br>cidade mais apropriada: "+city);
+              //$("#sound").html("trilha sonora sugerida: "+sound);
+              //$("#tip").html("dica da sabedoria ancestral: "+tip);
+              //$("#spirit").html("previsão do tempo: "+spirit);
+              //$("#party").html("rolê de domingo: "+party+"</br></br>");
 
             }, 3000);  
           
